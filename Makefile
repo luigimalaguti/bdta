@@ -1,0 +1,30 @@
+# ==================================================
+# Variables
+# ==================================================
+
+SCRIPTS_PATH = scripts
+PACKAGE_SCRIPT = $(SCRIPTS_PATH)/package.py
+NEW_PACKAGE_NAME ?= new-package
+
+# ==================================================
+# Exported variables
+# ==================================================
+
+# ==================================================
+# Default phony rules
+# ==================================================
+
+.DEFAULT_GOAL := all
+
+.PHONY: all
+all:
+	@echo "Available targets:"
+	@echo "  package - Create a new package using the package script"
+
+# ==================================================
+# bdta phony rules
+# ==================================================
+
+.PHONY: package
+package:
+	uv run python $(PACKAGE_SCRIPT) $(NEW_PACKAGE_NAME)
