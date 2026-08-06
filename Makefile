@@ -19,7 +19,8 @@ NEW_PACKAGE_NAME ?= new-package
 .PHONY: all
 all:
 	@echo "Available targets:"
-	@echo "  package - Create a new package using the package script"
+	@echo "  package  - Create a new package using the package script"
+	@echo "  notebook - Start a Jupyter notebook server"
 
 # ==================================================
 # bdta phony rules
@@ -28,3 +29,7 @@ all:
 .PHONY: package
 package:
 	uv run python $(PACKAGE_SCRIPT) $(NEW_PACKAGE_NAME)
+
+.PHONY: notebook
+notebook:
+	uv run jupyter notebook
