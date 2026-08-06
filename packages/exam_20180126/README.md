@@ -2,7 +2,7 @@
 
 > **Big data and text analysis**
 >
-> Data: *2018-06-26*
+> Data: *2018-01-26*
 
 ## Parte 0: Il Dataset
 
