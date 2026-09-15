@@ -71,4 +71,4 @@ Creare una pipeline che a partire dal dataset iniziale (dopo aver tolto le colon
 
 ### Domanda 06 (Punti 2)
 
-E' possibile utilizzare un regressore linerare al posto del DecisionTree? In che modo?
+È possibile utilizzare un regressore linerare al posto del DecisionTree? In che modo?

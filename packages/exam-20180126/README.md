@@ -83,7 +83,7 @@ Valutare l'accuracy ottenuta con il modello LogisticRegression su tutti i datase
 
 ### Domanda 03 (Punti 2)
 
-Che valore di accuratezza si ottiene con un 10 Fold cross validation e il modello basato su Decision Tree? E' più affidabile la valutazione fatta con la cross validation o quella fatta con una suddivisione arbitraria del dataset in due parti, training set e test set? Per quale motivo?
+Che valore di accuratezza si ottiene con un 10 Fold cross validation e il modello basato su Decision Tree? È più affidabile la valutazione fatta con la cross validation o quella fatta con una suddivisione arbitraria del dataset in due parti, training set e test set? Per quale motivo?
 
 ### Domanda 04 (Punti 4)
 
