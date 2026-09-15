@@ -14,7 +14,7 @@ Preso da [Kaggle](https://www.kaggle.com/datasets/blastchar/telco-customer-churn
 
 ### Domanda 01 (Punti 1)
 
-Quante sono le istanze contenute nel dataset? Il dataset è completo (cioè per ogni istanza tutti i valori di ogni attributo sono sempre correttamente specificati - non esistono “missing values”)? Il dataset è bilanciato per quanto riguarda la classe da predire?
+Quante sono le istanze contenute nel dataset? Il dataset è completo (cioè per ogni istanza tutti i valori di ogni attributo sono sempre correttamente specificati - non esistono "missing values")? Il dataset è bilanciato per quanto riguarda la classe da predire?
 
 ### Domanda 02 (Punti 2)
 
